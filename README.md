@@ -35,3 +35,9 @@ Le projet je le partage car je ne conte pas le continuer j'espère que grâce à
 #Titind
 ![alt text](https://image.noelshack.com/fichiers/2019/06/6/1549750366-2-1.png)
 ![alt text](https://image.noelshack.com/fichiers/2019/06/6/1549750370-2.png)
+
+
+
+Pour toute information vous pouvez me contact : 
+
+Discord : tifoux#9408
