@@ -14,7 +14,9 @@ suivie projet
 
 -Luax (PyDofus)
 
-*Mappeur & beta tester -Hiwada
+*Mappeur & beta tester
+
+-Hiwada
 
 -Titind
 
