@@ -1,0 +1,8 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ArenaRankInfos" Id="499" Heritage="Object">
+	<Fields>
+		<XmlField Name="rank" Type="varuhshort" Condition="rank &lt; 0 || rank &gt; 20000" />
+		<XmlField Name="bestRank" Type="varuhshort" Condition="bestRank &lt; 0 || bestRank &gt; 20000" />
+		<XmlField Name="victoryCount" Type="varuhshort" Condition="victoryCount &lt; 0" />
+		<XmlField Name="fightcount" Type="varuhshort" Condition="fightcount &lt; 0" />
+	</Fields>
+</XmlType>

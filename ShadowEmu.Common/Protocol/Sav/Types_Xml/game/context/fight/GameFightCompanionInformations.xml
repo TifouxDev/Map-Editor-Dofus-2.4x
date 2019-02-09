@@ -1,0 +1,7 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameFightCompanionInformations" Id="450" Heritage="GameFightFighterInformations">
+	<Fields>
+		<XmlField Name="companionGenericId" Type="sbyte" Condition="companionGenericId &lt; 0" />
+		<XmlField Name="level" Type="byte" Condition="level &lt; 0 || level &gt; 255" />
+		<XmlField Name="masterId" Type="double" Condition="masterId &lt; -9.007199254740992E15 || masterId &gt; 9.007199254740992E15" />
+	</Fields>
+</XmlType>

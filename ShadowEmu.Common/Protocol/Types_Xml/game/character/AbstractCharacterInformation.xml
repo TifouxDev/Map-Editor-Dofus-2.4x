@@ -1,0 +1,5 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AbstractCharacterInformation" Id="400" Heritage="Object">
+	<Fields>
+		<XmlField Name="id" Type="varuhlong" Condition="id &lt; 0 || id &gt; 9.007199254740992E15" />
+	</Fields>
+</XmlType>

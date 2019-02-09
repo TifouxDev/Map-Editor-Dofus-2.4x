@@ -1,0 +1,8 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ExchangeBidHouseInListAddedMessage" Id="5949" Heritage="Message">
+	<Fields>
+		<XmlField Name="itemUID" Type="int" />
+		<XmlField Name="objGenericId" Type="int" />
+		<XmlField Name="effects" Type="instance of Types.ObjectEffect[]" />
+		<XmlField Name="prices" Type="varuhint[]" />
+	</Fields>
+</XmlMessage>

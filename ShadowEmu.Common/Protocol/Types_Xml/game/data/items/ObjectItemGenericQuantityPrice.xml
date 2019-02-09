@@ -1,0 +1,5 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ObjectItemGenericQuantityPrice" Id="494" Heritage="ObjectItemGenericQuantity">
+	<Fields>
+		<XmlField Name="price" Type="varuhint" Condition="price &lt; 0" />
+	</Fields>
+</XmlType>

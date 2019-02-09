@@ -1,0 +1,11 @@
+E:\Map Editor Britana\DesignEditeurMap\Shadow.Tile\bin\Debug\Shadow.Tile.exe.config
+E:\Map Editor Britana\DesignEditeurMap\Shadow.Tile\bin\Debug\Shadow.Tile.exe
+E:\Map Editor Britana\DesignEditeurMap\Shadow.Tile\bin\Debug\Shadow.Tile.pdb
+E:\Map Editor Britana\DesignEditeurMap\Shadow.Tile\bin\Debug\ShadowEmu.Common.dll
+E:\Map Editor Britana\DesignEditeurMap\Shadow.Tile\bin\Debug\NLog.dll
+E:\Map Editor Britana\DesignEditeurMap\Shadow.Tile\bin\Debug\zlib.net.dll
+E:\Map Editor Britana\DesignEditeurMap\Shadow.Tile\bin\Debug\ShadowEmu.Common.pdb
+E:\Map Editor Britana\DesignEditeurMap\Shadow.Tile\obj\Debug\Shadow.Tile.csprojResolveAssemblyReference.cache
+E:\Map Editor Britana\DesignEditeurMap\Shadow.Tile\obj\Debug\Shadow.Tile.csproj.CoreCompileInputs.cache
+E:\Map Editor Britana\DesignEditeurMap\Shadow.Tile\obj\Debug\Shadow.Tile.exe
+E:\Map Editor Britana\DesignEditeurMap\Shadow.Tile\obj\Debug\Shadow.Tile.pdb

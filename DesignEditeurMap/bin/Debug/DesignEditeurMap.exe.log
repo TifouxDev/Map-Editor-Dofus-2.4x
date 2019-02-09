@@ -1,0 +1,61 @@
+Themida - Advanced Windows Software Protection System  [Version 2.4.6.30]
+
+Protection Options for DesignEditeurMap.exe
+-------------------------------------------
+
+Macros Information
+------------------
+VM Macros: 0
+ENCRYPT Macros: 0
+CLEAR Macros: 0
+MUTATE Macros: 0
+STR_ENCRYPT Macros: 0
+CHECK_PROTECTION Macros: 0
+CHECK_CODE_INTEGRITY Macros: 0
+CHECK_VIRTUAL_PC Macros: 0
+
+
+Protection Options
+------------------
+Anti-Debugger: Disabled
+Anti-Dumpers: DISABLED
+Entry Point Ofuscation: ENABLED
+Taggant Information: ENABLED
+Resource Encryption: ENABLED
+VMWare compatible: ENABLED
+API-Wrapping Level: Level 2
+Anti-Patching: None
+Memory Guard: DISABLED
+When Debugger Found: Exit Silently
+Application compression: ENABLED
+Resources compression: ENABLED
+SecureEngine compression: ENABLED
+Anti-File Monitor: DISABLED
+Anti-Registry Monitor: DISABLED
+Anti-Sandbox tools: DISABLED
+Delphi/BCB form protection: DISABLED
+
+
+Virtual Machine Settings
+------------------------
+Automatic handling of Virtual Machines: DISABLED
+Force Integrity Checks: DISABLED
+Virtualize Protection Core with: EAGLE32 (Black)
+Virtualize old VM macros: FISH32 (White)
+Virtual Machines Inserted: 
+--> EAGLE32 (Black)
+
+
+Advanced Protection Options
+---------------------------
+Encrypt Application: ENABLED
+DLL plugin: ENABLED
+Hide from PE scanners: Standard
+.NET assemblies: ENABLED
+Active Context: ENABLED
+Add Manifest: Don't add manifest
+
+
+XBundler files
+--------------
+No files to bundle

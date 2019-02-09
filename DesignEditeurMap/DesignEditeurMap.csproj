@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{13CA1998-D7D7-4C00-9C8A-5199473CCA14}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DesignEditeurMap</RootNamespace>
+    <AssemblyName>DesignEditeurMap</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>world-of-warcraft-wow-icone-8576.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>DesignEditeurMap.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Animator, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Animator.1.0.3\lib\net20\Animator.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3, Version=1.5.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\anthony\Desktop\Nouveau dossier\Bunifu_UI_v1.5.3.dll</HintPath>
+      <Private>False</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialSkin.0.2.1\lib\MaterialSkin.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="NLog">
+      <HintPath>C:\Users\anthony\Desktop\Nouveau dossier\NLog.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="OpenTK">
+      <HintPath>C:\Users\anthony\Desktop\Nouveau dossier\OpenTK.dll</HintPath>
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="OpenTK.Compatibility">
+      <HintPath>C:\Users\anthony\Desktop\Nouveau dossier\OpenTK.Compatibility.dll</HintPath>
+      <Private>False</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="sfmlnet-audio-2, Version=2.2.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\t-a-k\OneDrive\Documents\sfml net c#\SFML.Net-2.2\lib\sfmlnet-audio-2.dll</HintPath>
+    </Reference>
+    <Reference Include="sfmlnet-graphics-2, Version=2.2.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\t-a-k\OneDrive\Documents\sfml net c#\SFML.Net-2.2\lib\sfmlnet-graphics-2.dll</HintPath>
+    </Reference>
+    <Reference Include="sfmlnet-system-2, Version=2.2.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\t-a-k\OneDrive\Documents\sfml net c#\SFML.Net-2.2\lib\sfmlnet-system-2.dll</HintPath>
+    </Reference>
+    <Reference Include="sfmlnet-window-2, Version=2.2.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\t-a-k\OneDrive\Documents\sfml net c#\SFML.Net-2.2\lib\sfmlnet-window-2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking, Version=3.0.4.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481, processorArchitecture=MSIL">
+      <HintPath>..\packages\DockPanelSuite.3.0.4\lib\net40\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="WeifenLuo.WinFormsUI.Docking.ThemeVS2015, Version=3.0.4.0, Culture=neutral, PublicKeyToken=5cded1a1a0a7b481, processorArchitecture=MSIL">
+      <HintPath>..\packages\DockPanelSuite.ThemeVS2015.3.0.4\lib\net40\WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll</HintPath>
+    </Reference>
+    <Reference Include="zlib.net">
+      <HintPath>C:\Users\anthony\Desktop\Nouveau dossier\zlib.net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\Identifier.cs" />
+    <Compile Include="Cellule\MapCell.cs" />
+    <Compile Include="Cellule\MapPoint.cs" />
+    <Compile Include="Configuration\Configuration.cs" />
+    <Compile Include="Constant\AtouinConstants.cs" />
+    <Compile Include="Constant\CloneClass.cs" />
+    <Compile Include="Editor\BackgroundEditor.cs" />
+    <Compile Include="Editor\MapEditor.cs" />
+    <Compile Include="Elements\Tile.cs" />
+    <Compile Include="Enums\LayerEnum.cs" />
+    <Compile Include="Enums\OutilsEnum.cs" />
+    <Compile Include="Extension\DataManager.cs" />
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameLoop\GameLoop.cs" />
+    <Compile Include="Look\ActorLook.cs" />
+    <Compile Include="Look\CollectionExtensions.cs" />
+    <Compile Include="Look\StringExtensions.cs" />
+    <Compile Include="Look\SubActorLook.cs" />
+    <Compile Include="Manager\CellManager.cs" />
+    <Compile Include="Manager\CellManagerTest.cs" />
+    <Compile Include="Manager\TextureManager.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TestUI.Designer.cs">
+      <DependentUpon>TestUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\LoadingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\LoadingForm.Designer.cs">
+      <DependentUpon>LoadingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Map\MapInformations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Map\MapInformations.Designer.cs">
+      <DependentUpon>MapInformations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\NewUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\NewUI.Designer.cs">
+      <DependentUpon>NewUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Tiles\LayerExplorer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Tiles\LayerExplorer.Designer.cs">
+      <DependentUpon>LayerExplorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Tiles\TilesExplorer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Tiles\TilesExplorer.Designer.cs">
+      <DependentUpon>TilesExplorer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\UIManager.cs" />
+    <Compile Include="View\UINewMap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\UINewMap.Designer.cs">
+      <DependentUpon>UINewMap.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TestUI.resx">
+      <DependentUpon>TestUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\LoadingForm.resx">
+      <DependentUpon>LoadingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Map\MapInformations.resx">
+      <DependentUpon>MapInformations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\NewUI.resx">
+      <DependentUpon>NewUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Tiles\LayerExplorer.resx">
+      <DependentUpon>LayerExplorer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Tiles\TilesExplorer.resx">
+      <DependentUpon>TilesExplorer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\UINewMap.resx">
+      <DependentUpon>UINewMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="bin\Debug\data\data.bin" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data.bin" />
+    <None Include="Resources\maximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\four-layers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eraser %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sheets_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eraser_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stationery_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\World_Map_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\showcase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sans titre - 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application-applications-construction-developpement-marteau-outil-icone-4338-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ShadowEmu.Common.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ShadowEmu.Common\ShadowEmu.Common.csproj">
+      <Project>{f341a606-d45e-40fd-bf78-16cd6ce676db}</Project>
+      <Name>ShadowEmu.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plan-icone-6364-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gps-paysage-carte-suivi-des-chemins-icone-7623-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disque-un-stylo-enregistrer-enregistrer-sous-ecrivez-icone-9275-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fleche-verte-icone-8957-48.png" />
+    <None Include="Resources\fleche-vers-bas-vert-icone-6380-48.png" />
+    <None Include="Resources\fleche-verte-a-gauche-icone-6472-48.png" />
+    <None Include="Resources\fleche-verte-a-droite-icone-3896-48.png" />
+    <Content Include="world-of-warcraft-wow-icone-8576.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="View\NewFolder1\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,8 @@
+G:\ShadowEmu\ShadowEmu.Common\bin\Release\ShadowEmu.Common.dll
+G:\ShadowEmu\ShadowEmu.Common\bin\Release\ShadowEmu.Common.pdb
+G:\ShadowEmu\ShadowEmu.Common\bin\Release\zlib.net.dll
+G:\ShadowEmu\ShadowEmu.Common\obj\Release\ShadowEmu.Common.csprojResolveAssemblyReference.cache
+G:\ShadowEmu\ShadowEmu.Common\obj\Release\ShadowEmu.Common.Properties.Resources.resources
+G:\ShadowEmu\ShadowEmu.Common\obj\Release\ShadowEmu.Common.csproj.GenerateResource.Cache
+G:\ShadowEmu\ShadowEmu.Common\obj\Release\ShadowEmu.Common.dll
+G:\ShadowEmu\ShadowEmu.Common\obj\Release\ShadowEmu.Common.pdb

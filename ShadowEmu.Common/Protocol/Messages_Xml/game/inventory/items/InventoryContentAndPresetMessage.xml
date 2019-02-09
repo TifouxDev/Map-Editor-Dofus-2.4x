@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="InventoryContentAndPresetMessage" Id="6162" Heritage="InventoryContentMessage">
+	<Fields>
+		<XmlField Name="presets" Type="Types.Preset[]" />
+		<XmlField Name="idolsPresets" Type="Types.IdolsPreset[]" />
+	</Fields>
+</XmlMessage>

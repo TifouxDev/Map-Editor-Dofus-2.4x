@@ -1,0 +1,6 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AchievementRewardable" Id="412" Heritage="Object">
+	<Fields>
+		<XmlField Name="id" Type="varuhshort" Condition="id &lt; 0" />
+		<XmlField Name="finishedlevel" Type="byte" Condition="finishedlevel &lt; 0 || finishedlevel &gt; 200" />
+	</Fields>
+</XmlType>

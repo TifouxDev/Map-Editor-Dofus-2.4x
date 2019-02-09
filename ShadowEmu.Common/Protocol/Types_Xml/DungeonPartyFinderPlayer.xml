@@ -1,0 +1,9 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DungeonPartyFinderPlayer" Id="373" Heritage="Object">
+	<Fields>
+		<XmlField Name="playerId" Type="varuhlong" Condition="playerId &lt; 0 || playerId &gt; 9.007199254740992E15" />
+		<XmlField Name="playerName" Type="utf" />
+		<XmlField Name="breed" Type="sbyte" Condition="breed &lt; (byte)Enums.PlayableBreedEnum.Feca || breed &gt; (byte)Enums.PlayableBreedEnum.Huppermage" />
+		<XmlField Name="sex" Type="boolean" />
+		<XmlField Name="level" Type="byte" Condition="level &lt; 0 || level &gt; 255" />
+	</Fields>
+</XmlType>

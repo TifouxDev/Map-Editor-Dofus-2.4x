@@ -1,0 +1,13 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GuildInformationsGeneralMessage" Id="5557" Heritage="Message">
+	<Fields>
+		<XmlField Name="enabled" Type="flag(0)" />
+		<XmlField Name="abandonnedPaddock" Type="flag(1)" />
+		<XmlField Name="level" Type="byte" Condition="level &lt; 0 || level &gt; 255" />
+		<XmlField Name="expLevelFloor" Type="varuhlong" Condition="expLevelFloor &lt; 0 || expLevelFloor &gt; 9.007199254740992E15" />
+		<XmlField Name="experience" Type="varuhlong" Condition="experience &lt; 0 || experience &gt; 9.007199254740992E15" />
+		<XmlField Name="expNextLevelFloor" Type="varuhlong" Condition="expNextLevelFloor &lt; 0 || expNextLevelFloor &gt; 9.007199254740992E15" />
+		<XmlField Name="creationDate" Type="int" Condition="creationDate &lt; 0" />
+		<XmlField Name="nbTotalMembers" Type="varuhshort" Condition="nbTotalMembers &lt; 0" />
+		<XmlField Name="nbConnectedMembers" Type="varuhshort" Condition="nbConnectedMembers &lt; 0" />
+	</Fields>
+</XmlMessage>

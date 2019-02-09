@@ -1,0 +1,6 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="AbstractCharacterToRefurbishInformation" Id="475" Heritage="AbstractCharacterInformation">
+	<Fields>
+		<XmlField Name="colors" Type="int[]" />
+		<XmlField Name="cosmeticId" Type="varuhint" Condition="cosmeticId &lt; 0" />
+	</Fields>
+</XmlType>

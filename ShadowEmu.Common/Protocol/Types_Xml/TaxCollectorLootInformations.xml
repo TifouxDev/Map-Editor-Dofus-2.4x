@@ -1,0 +1,8 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="TaxCollectorLootInformations" Id="372" Heritage="TaxCollectorComplementaryInformations">
+	<Fields>
+		<XmlField Name="kamas" Type="varuhint" Condition="kamas &lt; 0" />
+		<XmlField Name="experience" Type="varuhlong" Condition="experience &lt; 0 || experience &gt; 9.007199254740992E15" />
+		<XmlField Name="pods" Type="varuhint" Condition="pods &lt; 0" />
+		<XmlField Name="itemsValue" Type="varuhint" Condition="itemsValue &lt; 0" />
+	</Fields>
+</XmlType>

@@ -1,0 +1,6 @@
+﻿<XmlType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="GameFightFighterCompanionLightInformations" Id="454" Heritage="GameFightFighterLightInformations">
+	<Fields>
+		<XmlField Name="companionId" Type="sbyte" Condition="companionId &lt; 0" />
+		<XmlField Name="masterId" Type="double" Condition="masterId &lt; -9.007199254740992E15 || masterId &gt; 9.007199254740992E15" />
+	</Fields>
+</XmlType>

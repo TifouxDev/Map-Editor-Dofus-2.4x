@@ -1,0 +1,6 @@
+﻿<XmlMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SetCharacterRestrictionsMessage" Id="170" Heritage="Message">
+	<Fields>
+		<XmlField Name="actorId" Type="double" Condition="actorId &lt; -9.007199254740992E15 || actorId &gt; 9.007199254740992E15" />
+		<XmlField Name="restrictions" Type="Types.ActorRestrictionsInformations" />
+	</Fields>
+</XmlMessage>
